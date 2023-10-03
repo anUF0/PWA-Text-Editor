@@ -1,9 +1,9 @@
 {
   "name": "JATE",
   "scripts": {
-    "dev": "webpack-dev-server",
-    "build": "webpack --mode production",
-    "start": "webpack --watch"
+    "dev": "webpack-dev-server --open",
+    "build": "webpack",
+    "start": "webpack && webpack serve"
   },
   "author": "2U",
   "license": "UNLICENSED",
